@@ -1,28 +1,15 @@
 # Laboratorio de Comunicaciones
 ## Universidad Industrial de Santander
 
-Utilice esta [plantilla](#integrantes) para presentar sus informes de laboratorio. 
-
-Al final de la plantilla encontrará algunos ejemplos para enriquecer su informe, incluyendo cómo insertar imágenes, tablas y ecuaciones, así como generar hipervínculos a su repositorio o al propio informe. Ir a [ejemplos en Markdown](#ejemplos-usando-markdown)
-
-### Importante
-
-- En caso de utilizar herramientas de Inteligencia Artificial para asistencia en la redacción, análisis o cualquier otra tarea, de debe especificar en la sección de **Declaración de Originalidad y Responsabilidad** aclarando el alcance y propósito de su uso.
-- Cualquier omisión en la declaración del uso de IA o la presentación de contenido plagiado será penalizado con nota de 0.0 y reporte a la coordinación del programa.
-- Si emplea referencias disponibles en línea, agregue los hipervínculos respectivos.  
-
 ---
-# Práctica 1: TÍTULO PRÁCTICA
+# Misión 1: Reconocimiento de Equipos y Espectro
 
 ### Integrantes
-- **PRIMER INTEGRANTE** - Código
+- **MICHELLE GARZÓN CAMPOS** - 2202785
 - **SEGUNDO INTEGRANTE** - Código
 
 Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones  
 Universidad Industrial de Santander
-
-### Fecha
-31 de diciembre de 2030
 
 ---
 
@@ -42,27 +29,23 @@ Descripción en no más de 150 palabras del contenido de la práctica. Debe ser 
 **Palabras clave:** de 2 a 5 palabras clave. 
 
 ### Introducción
-Cada práctica contará con preguntas orientadoras para la elaboración de la introducción. Por ejemplo: 
-- ¿Qué tan importante es la teoría de muestreo en el procesamiento de señales?
-- ¿Cuáles son los principales potenciales de GNURADIO en el laboratorio de comunicaciones?
-- ¿Qué pasa cuando se alcanza el límite de Nyquist?
-- ¿Qué tan alta debe ser la relación entre la frecuencia de muestreo y la frecuencia de la señal para visualizar la señal correctamente?
-- ¿Cuándo es importante interpolar una señal?
-- ¿Cuándo es importante diezmar una señal?
-- ¿Qué pasa cuando se asigna una frecuencia de muestreo inadecuada?
+Este informe presenta un resumen del trabajo realizado para explorar y analizar las señales de radio que nos rodean. Usamos tres equipos diferentes: un SDR, un analizador de espectro y un osciloscopio. El objetivo era entender cómo se comportan estas señales y qué ventajas tiene cada herramienta para estudiarlas.
 
-### Procedimiento
-Debe basarse en las acciones efectivamente realizadas durante el laboratorio, describiendo los procesos realizados y los resultados obtenidos. Para cada práctica se pueden brindar preguntas orientadoras o pasos a seguir para establecer lo que se espera lograr/estudiar/analizar/obtener/comparar. Por ejemplo:
-- Describa los procesos realizados en el laboratorio  y los resultados obtenidos.
-- ¿Cómo se alcanza el límite de Nyquist y que pasa cuando se disminuye de este?
-- ¿Por qué al interpolar una señal en GNURADIO su frecuencia disminuye?
-- ¿Por qué al diezmar una señal en GNURADIO su frecuencia aumenta?
-- ¿Cómo se puede determinar la frecuencia máxima de una señal desde lo experimental?
-- ¿Qué le sucede a una señal de audio cuando no se respeta el teorema de Nyquist?
-- Describa las funciones logradas con el Ecualizador desarrollado con GNURadio.
+El proceso se dividió en tres partes: primero, usamos el SDR para tener una idea general de qué señales hay en el aire. Luego, con el analizador de espectro, hicimos mediciones exactas de la señal que elegimos. Finalmente, intentamos ver la señal con el osciloscopio para entender cómo cambia con el tiempo.
+
+El trabajo nos ayudó a entender que cada equipo es clave en un momento diferente del análisis. Los siguientes puntos detallan lo que encontramos y cómo cada herramienta nos dio una pieza importante del rompecabezas para entender mejor el mundo de las telecomunicaciones.
+
+### Fase 1: Exploración con SDR (Ojo Panorámico)
+En esta etapa, se utilizó un SDR para mapear de manera amplia el espectro radioeléctrico. El SDR demostró ser una herramienta eficiente para la exploración, permitiendo la identificación rápida de señales de interés. Durante el barrido, se identificaron múltiples servicios, incluyendo emisoras de radio FM (como Radio Policía Nacional en 91.7 MHz), estaciones AM, telefonía móvil (800 MHz), flotas de taxis (780 MHz), televisión digital terrestre (490 MHz) y sistemas de radio troncalizados (858 MHz). Este proceso fue crucial para seleccionar una señal potente y estable para un análisis más detallado.
+
+## Fase 2: Análisis de Precisión con Analizador de Espectro
+Una vez seleccionada la señal, el analizador de espectro se utilizó para mediciones precisas en el dominio de la frecuencia. Se configuraron parámetros como el SPAN y el RBW para obtener una visión detallada de la señal. Se registró una frecuencia central exacta de 91.7 MHz, una potencia de 48.84 dBm y un ancho de banda de 3.384 kHz. El analizador de espectro se confirmó como el instrumento más adecuado para obtener datos de potencia y ancho de banda confiables, superando al SDR en precisión y al osciloscopio en la visualización del espectro de frecuencia.
+
+## Fase 3: Visualización en el Dominio del Tiempo con Osciloscopio
+Esta fase fue la más desafiante. La señal de RF, al contener múltiples frecuencias y ruido, resultó en una forma de onda "aleatoria" en la pantalla del osciloscopio. Se midió un voltaje pico a pico de 15.5 mV, pero la frecuencia no pudo ser determinada con exactitud debido a las fluctuaciones. La principal dificultad fue la ausencia de un filtro previo, lo que impedía aislar la señal de interés de otras perturbaciones. Se concluyó que el osciloscopio, por sí solo, no es la herramienta ideal para el análisis de una señal de RF del aire sin un filtrado o un circuito de down-conversion que la baje a una frecuencia manejable.
 
 ### Conclusiones
-Se sintetizan los principales aportes y puntos relevantes de la práctica, evitando repetir lo ya consignado en las otras secciones del informe. 
+La combinación de los tres equipos es esencial para un análisis completo de las señales de RF. El SDR es inigualable para la exploración y el descubrimiento inicial. El analizador de espectro es la herramienta de elección para mediciones precisas en el dominio de la frecuencia. Finalmente, el osciloscopio es fundamental para el análisis en el dominio del tiempo, siempre y cuando la señal de entrada esté adecuadamente preparada. El "pico" en el analizador de espectro representa la concentración de potencia de la señal en una frecuencia específica, lo cual se correlaciona con la forma de onda sinusoidal que se observa en el osciloscopio, representando su comportamiento a lo largo del tiempo. 
 
 ### Referencias
 Ejemplo de referencia:
