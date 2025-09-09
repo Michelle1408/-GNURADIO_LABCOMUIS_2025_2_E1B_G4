@@ -6,7 +6,7 @@
 
 ### Integrantes
 - **MICHELLE GARZÓN CAMPOS** - 2202785
-- **SEGUNDO INTEGRANTE** - Código
+- **JOHAN SEBASTIAN FANDIÑO** - 2204271
 
 Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones  
 Universidad Industrial de Santander
