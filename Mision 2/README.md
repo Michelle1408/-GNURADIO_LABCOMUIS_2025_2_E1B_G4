@@ -2,7 +2,7 @@
 
 ### Integrantes
 - **MICHELLE GARZÓN CAMPOS - 2202785**
-- **Johan Sebastian Fandiño Ruiz - 2204271**
+- **JOHAN SEBASTIAN FANDIÑO RUIZ - 2204271**
 
 Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones  
 Universidad Industrial de Santander
@@ -20,29 +20,22 @@ Uso de IA: [Indicar si se usó IA y para qué aspectos específicos, por ejemplo
 ## Contenido
 
 ### Resumen
-Descripción en no más de 150 palabras del contenido de la práctica. Debe ser conciso y brindar una idea clara sobre el trabajo realizado y sus conclusiones.
+En la práctica 2 se busca comparar la potencia de una señal configurada previamente al analisis, dependiendo de la longitud del cable usado para transmitir la señal desde el generador de señales hacia el analizador de espectro, este analisis de dividió en tres fases las cuales seran descritas en este informe.
 
-**Palabras clave:** de 2 a 5 palabras clave. 
+**Palabras clave:** Potencia, Longitud, Atenuación, Espectro. 
 
 ### Introducción
-Cada práctica contará con preguntas orientadoras para la elaboración de la introducción. Por ejemplo: 
-- ¿Qué tan importante es la teoría de muestreo en el procesamiento de señales?
-- ¿Cuáles son los principales potenciales de GNURADIO en el laboratorio de comunicaciones?
-- ¿Qué pasa cuando se alcanza el límite de Nyquist?
-- ¿Qué tan alta debe ser la relación entre la frecuencia de muestreo y la frecuencia de la señal para visualizar la señal correctamente?
-- ¿Cuándo es importante interpolar una señal?
-- ¿Cuándo es importante diezmar una señal?
-- ¿Qué pasa cuando se asigna una frecuencia de muestreo inadecuada?
+En esta misión el objetivo es hacer una comparación y observar el comportamiento de una señal elegida cuando esta se transmite por cables de diferentes longitudes aunque la misma referencia (RG-58AU), además de otros aspectos lo que principalmente se buscaba era la comparación y el análisis de la potencia registrada por la señal en el analizador de espectro cuando esta se transmitia por dos cables de longitudes diferentes.
+para poder cumplir con los objetivos, la misión se dividió en 3 fases en las que a grandes rasgos primero se generó una señal que luego seria transmitida al analizador de espectro para hacer una comparación del espectro debido a cada cable.
+En la misión se encotraron resultados intersantes y que denotan una diferencia en las características de la señal cuando esta se transmite por cables de diferentes longitudes
 
-### Procedimiento
-Debe basarse en las acciones efectivamente realizadas durante el laboratorio, describiendo los procesos realizados y los resultados obtenidos. Para cada práctica se pueden brindar preguntas orientadoras o pasos a seguir para establecer lo que se espera lograr/estudiar/analizar/obtener/comparar. Por ejemplo:
-- Describa los procesos realizados en el laboratorio  y los resultados obtenidos.
-- ¿Cómo se alcanza el límite de Nyquist y que pasa cuando se disminuye de este?
-- ¿Por qué al interpolar una señal en GNURADIO su frecuencia disminuye?
-- ¿Por qué al diezmar una señal en GNURADIO su frecuencia aumenta?
-- ¿Cómo se puede determinar la frecuencia máxima de una señal desde lo experimental?
-- ¿Qué le sucede a una señal de audio cuando no se respeta el teorema de Nyquist?
-- Describa las funciones logradas con el Ecualizador desarrollado con GNURadio.
+### Fase 1: Establecimiento de la Línea Base (Calibración)
+Para esta fase se utilizó el generador de señales junto con el software "GNU radio", con estos instrumentos se estableció una señal que luego fue emitida a una frecuencia de 200 [MHZ] al analizador es espectros para medir su potencia, para esta transmisión se utilizó un cable corto y de buena calidad. la potencia encontrada sera el valor de la potencia de entreda y sera el punto de comparación para todas las demás mediciones con otros cables. (Potencia de entrada: -30.23 [dBm])
+<img src="Mision 2/imagenes/Captura de pantalla 2025-09-04 203649.png" width="400"> 
+
+### Fase 2: Pruebas de Campo (Medición de Componentes)
+Luego tener el registro de la señal de referencia y su potencia, es decir la que será la potencia de entrada, se desconecto el cable corto y se transmitio la señal por el primer cable (RG-58AU de 80[ft]) para esta vez registar nuevamente la señal en el analizador de espectros, con este primer cable la señal entrego una potencia de -36.64[dBm]. Teniendo este registro se desconecto ahora el primer cable para transmitir la señal por el segundo cable (RG-58AU de 136[ft]) Y realizar el mismo procedimiento, la potencia que entrego la señal transmitida por este segundo cable fue de -42.01 [dBm].
+<img src="Mision 2/imagenes/Captura de pantalla 2025-09-04 203855.png" width="400">  <img src="Mision 2/imagenes/Captura de pantalla 2025-09-04 203926.png" width="400"> 
 
 ### Conclusiones
 Se sintetizan los principales aportes y puntos relevantes de la práctica, evitando repetir lo ya consignado en las otras secciones del informe. 
