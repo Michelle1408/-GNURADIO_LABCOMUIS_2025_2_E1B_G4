@@ -31,11 +31,11 @@ En la misión se encotraron resultados intersantes y que denotan una diferencia 
 
 ### Fase 1: Establecimiento de la Línea Base (Calibración)
 Para esta fase se utilizó el generador de señales junto con el software "GNU radio", con estos instrumentos se estableció una señal que luego fue emitida a una frecuencia de 200 [MHZ] al analizador es espectros para medir su potencia, para esta transmisión se utilizó un cable corto y de buena calidad. la potencia encontrada sera el valor de la potencia de entreda y sera el punto de comparación para todas las demás mediciones con otros cables. (Potencia de entrada: -30.23 [dBm])
-<img src="Mision 2/imagenes/Captura de pantalla 2025-09-04 203649.png" width="400"> 
+<img src="imagenes/Captura de pantalla 2025-09-04 203649.png" width="400"> 
 
 ### Fase 2: Pruebas de Campo (Medición de Componentes)
 Luego tener el registro de la señal de referencia y su potencia, es decir la que será la potencia de entrada, se desconecto el cable corto y se transmitio la señal por el primer cable (RG-58AU de 80[ft]) para esta vez registar nuevamente la señal en el analizador de espectros, con este primer cable la señal entrego una potencia de -36.64[dBm]. Teniendo este registro se desconecto ahora el primer cable para transmitir la señal por el segundo cable (RG-58AU de 136[ft]) Y realizar el mismo procedimiento, la potencia que entrego la señal transmitida por este segundo cable fue de -42.01 [dBm].
-<img src="Mision 2/imagenes/Captura de pantalla 2025-09-04 203855.png" width="400">  <img src="Mision 2/imagenes/Captura de pantalla 2025-09-04 203926.png" width="400"> 
+<img src="imagenes/Captura de pantalla 2025-09-04 203855.png" width="400">  <img src="imagenes/Captura de pantalla 2025-09-04 203926.png" width="400"> 
 
 ### Conclusiones
 Se sintetizan los principales aportes y puntos relevantes de la práctica, evitando repetir lo ya consignado en las otras secciones del informe. 
