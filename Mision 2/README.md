@@ -1,11 +1,12 @@
 # Práctica 2: EL ENLACE CRÍTICO
 
 ### Integrantes
-- **PRIMER INTEGRANTE** - Código
-- Johan Sebastian Fandiño Ruiz - 2204271
+- **MICHELLE GARZÓN CAMPOS - 2202785**
+- **Johan Sebastian Fandiño Ruiz - 2204271**
 
 Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones  
 Universidad Industrial de Santander
+
 ---
 
 ## Declaración de Originalidad y Responsabilidad
