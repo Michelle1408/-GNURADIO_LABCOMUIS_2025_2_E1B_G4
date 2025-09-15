@@ -38,7 +38,15 @@ Luego tener el registro de la señal de referencia y su potencia, es decir la qu
 <img src="imagenes/Captura de pantalla 2025-09-04 203855.png" width="400">  <img src="imagenes/Captura de pantalla 2025-09-04 203926.png" width="400"> 
 
 ### Fase 3: Diagnóstico y Análisis
-
+Para la fase 3 se busca hacer una comparación de los resultados obtenidos con cada cable utilizado en la fase 2, para esto se realizó los mismos estudios mencionados anteriormente en la fase anterior, con los cables RG-58AU de 80[ft] y RG-58AU de 136[ft] añadiendo nuevos registros usando otras frecuencias. En este punto tambien se busca calcular y comparar el valor de la atenuación para cada cable en cada frecuencia estidiada. los resultaros estan registrados en la siguiente tabla:
+| Cable | Frecuencia (MHz) | P_in (dBm) | P_out (dBm) | Atenuación (dB) | 
+| :------ | :--------------------| :------------ | :-------------- | :------------------| 
+| cable 1|          100              |    -30.23      |      -33.89      |           3.66          | 
+| cable 1|          200              |    -30.23      |      -36.64      |          6.41           | 
+| cable 1|          500              |    -30.23      |      -41.28      |          11.05         | 
+| cable 2|          100              |    -30.23      |      -37.57      |           7.34          | 
+| cable 2|          200              |    -30.23      |      -42.01      |          11.78         | 
+| cable 2|          500              |    -30.23      |      -50.17      |          19.94         |
 
 ### Conclusiones
 Se sintetizan los principales aportes y puntos relevantes de la práctica, evitando repetir lo ya consignado en las otras secciones del informe. 
