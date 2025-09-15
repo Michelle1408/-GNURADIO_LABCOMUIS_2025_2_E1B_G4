@@ -38,7 +38,7 @@ Luego tener el registro de la señal de referencia y su potencia, es decir la qu
 <img src="imagenes/Captura de pantalla 2025-09-04 203855.png" width="400">  <img src="imagenes/Captura de pantalla 2025-09-04 203926.png" width="400"> 
 
 ### Fase 3: Diagnóstico y Análisis
-\text{Atenuación (dB)} \;=\; P_{\text{in}} \;-\; P_{\text{out}}
+
 
 ### Conclusiones
 Se sintetizan los principales aportes y puntos relevantes de la práctica, evitando repetir lo ya consignado en las otras secciones del informe. 
