@@ -37,6 +37,9 @@ Para esta fase se utilizó el generador de señales junto con el software "GNU r
 Luego tener el registro de la señal de referencia y su potencia, es decir la que será la potencia de entrada, se desconecto el cable corto y se transmitio la señal por el primer cable (RG-58AU de 80[ft]) para esta vez registar nuevamente la señal en el analizador de espectros, con este primer cable la señal entrego una potencia de -36.64[dBm]. Teniendo este registro se desconecto ahora el primer cable para transmitir la señal por el segundo cable (RG-58AU de 136[ft]) Y realizar el mismo procedimiento, la potencia que entrego la señal transmitida por este segundo cable fue de -42.01 [dBm].
 <img src="imagenes/Captura de pantalla 2025-09-04 203855.png" width="400">  <img src="imagenes/Captura de pantalla 2025-09-04 203926.png" width="400"> 
 
+### Fase 3: Diagnóstico y Análisis
+\text{Atenuación (dB)} \;=\; P_{\text{in}} \;-\; P_{\text{out}}
+
 ### Conclusiones
 Se sintetizan los principales aportes y puntos relevantes de la práctica, evitando repetir lo ya consignado en las otras secciones del informe. 
 
