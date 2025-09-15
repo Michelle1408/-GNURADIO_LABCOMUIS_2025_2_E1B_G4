@@ -49,69 +49,13 @@ Para la fase 3 se busca hacer una comparación de los resultados obtenidos con c
 | cable 2|          500              |    -30.23      |      -50.17      |          19.94         |
 
 ### Conclusiones
-Se sintetizan los principales aportes y puntos relevantes de la práctica, evitando repetir lo ya consignado en las otras secciones del informe. 
+Según lo que se observa en la tabla, el cable 2 (RG-58AU de 136 ft) es el que muestra una mayor atenuación en todas las frecuencias medidas. Esto pasa principalmente porque al ser más largo tiene más pérdidas que el cable 1 (RG-58AU de 80 ft), y esas pérdidas aumentan todavía más cuando la frecuencia es más alta. Además, la atenuación que se midió en el cable 2 resulta un poco mayor de lo que normalmente se esperaría para esa longitud, lo que hace pensar que pueda tener algún problema físico, como conectores en mal estado, partes oxidadas, humedad dentro del cable o incluso daños por dobleces, que terminan afectando sus características y hacen que la señal se debilite más de lo normal.
+Es por esto que medir la pérdida en las líneas de transmisión resulta ser importante porque de esta manera se conoce si la señal que enviada llega con la fuerza suficiente al otro lado (receptor). Si no se controla, la señal puede llegar muy débil y eso hace que la comunicación falle o tenga errores. También sirve para darse cuenta si el cable o los conectores están dañados, ya que una pérdida más alta de lo normal puede ser señal de un problema físico. En conclusión, esta medición ayuda a mantener el enlace óptimo y evita sorpresas cuando se necesita que el sistema funcione bien.
 
 ### Referencias
-Ejemplo de referencia:
 
-- [Proakis, 2014] J. Proakis, M. Salehi. Fundamentals of communication systems. 2 ed. England: Pearson Education Limited, 2014. p. 164-165, 346. Chapter 5 In: [Biblioteca UIS](https://uis.primo.exlibrisgroup.com/permalink/57UIDS_INST/63p0of/cdi_askewsholts_vlebooks_9781292015699)
 
----
-# Ejemplos usando Markdown
+- [Pasternack, 2018] Pasternack. Introduction to coaxial cable losses. Pasternack Engineering Blog, 2018. In: (https://blog.pasternack.com/coaxial-cable/introduction-to-coaxial-cable-losses/)
+- [Belden, 2023] Belden. 8219 50 Ohm Coax Cable – RG-58A/U – Technical Data Sheet. Belden, 2023. p. Attenuation «Nominal Attenuation vs Frequency (dB/100ft)». Available from Belden’s web site: Página de producto “50 Ohm Coax-Cable / 8219”, sección de Características Eléctricas. in: (https://www.belden.com/products/cable/coax-triax-cable/50-ohm-coax-cable/8219?utm_source=chatgpt.com)
 
-Volver al [INICIO](#laboratorio-de-comunicaciones)
 
-## Inclusión de Imágenes
-### Imagen de referencia dentro del repositorio:
-![Networking](my%20file/test.png)
-
-### Imagen de fuente externa
-![GNU Radio logo](https://kb.ettus.com/images/thumb/5/50/gnuradio.png/600px-gnuradio.png)
-
-### Uso de html para cambiar escala de la imagen
-<img src="https://kb.ettus.com/images/thumb/5/50/gnuradio.png/600px-gnuradio.png" alt="GNU Radio Logo" width="300">
-
-## Creación de hipevínculos 
-- [Aprende Markdown](https://markdown.es/)
-- [Más acerca de Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Abrir documento en el repositorio](my%20file/test_file.txt). Si hay espacios en la ruta de su archivo, reemplácelos por `%20`.
-- Ir a una sección de este documento. Por ejemplo: [Ir a Contenido](#contenido) Tenga en cuenta escribir el título de la sección en minúsculas y los espacios reemplazarlos por guiones.
-## Uso de Expresiones Matemáticas
-Se pueden incluir ecuaciones en el archivo `README.md` utilizando sintaxis similar a [LaTeX](https://manualdelatex.com/tutoriales/ecuaciones):
-
-### Ecuaciones en Línea
-```
-La energía de una señal exponencial es $E = \int_0^\infty A^2 e^{-2t/\tau} dt$.
-```
-**Salida renderizada:**
-La energía de una señal exponencial es $E = \int_0^\infty A^2 e^{-2t/\tau} dt$.
-
-### Ecuaciones en Bloque
-```
-$$E = \int_0^\infty A^2 e^{-2t/\tau} dt = \frac{A^2 \tau}{2}$$
-```
-**Salida renderizada**
-$$E = \int_0^\infty A^2 e^{-2t/\tau} dt = \frac{A^2 \tau}{2}$$
-
-## Creación de Tablas
-
-**Tabla 1.** Ejemplo de tabla en Markdown.
-
-| Parámetro | Valor |
-|-----------|-------|
-| Frecuencia (Hz) | 1000 |
-| Amplitud (V) | 5 |
-| Ciclo útil (%) | 50 |
-
-## Inclusión de código
-
-```python
-def hello_world():
-    print("Hello, World!")
-```
-
-También es posible resaltar texto tipo código como `print("Hello, World!")`.
-
----
-
-Volver al [INICIO](#laboratorio-de-comunicaciones)
