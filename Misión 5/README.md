@@ -35,33 +35,70 @@ El proceso se dividió en tres partes:
 2) Construcción: Fabricar la antena con las medidas obtenidas.
 3) Medición: Probar la antena con equipos de laboratorio para ver si funcionaba.
 
-### Fase 1: Diseño y Simulación (La Receta)
+### Fase 1: Diseño y Simulación
 Para que la antena funcionara a 915 MHz, utilizamos MATLAB para estiamr el tamaño de los cuadrados de alambre y la distancia del reflector.
 
 Ajuste Fino: Usamos el programa MATLAB (Antenna Designer) para simular la antena. Fue como un "prueba y error" digital: primero dejamos que el programa estimara las medidas y luego fuimos modificando el tamaño de los lados y la distancia al reflector hasta que el programa nos dijo que la antena resonaría justo en 915 MHz.
 
 Medidas Ideales (Simuladas):
+
 Lado del cuadrado de alambre: 8.55 cm
+
 Distancia al reflector: 4 cm
+
 Frecuencia esperada: 915 MHz
 
-<img src="imagenes/antena_matlab" width="300"> 
+<img src="Imagenes/captura_matlab.png" width="800"> 
 
 El patrón de radiación simulado confirmó que la antena debería ser direccional (tendría un lóbulo grande hacia adelante).
 
 
-## Fase 2: Análisis de Precisión con Analizador de Espectro
-Una vez seleccionada la señal, el analizador de espectro se utilizó para mediciones precisas en el dominio de la frecuencia. Se configuraron parámetros como el SPAN y el RBW para obtener una visión detallada de la señal. Se registró una frecuencia central exacta de 91.7 MHz, una potencia de 48.84 dBm y un ancho de banda de 3.384 kHz. El analizador de espectro se confirmó como el instrumento más adecuado para obtener datos de potencia y ancho de banda confiables, superando al SDR en precisión y al osciloscopio en la visualización del espectro de frecuencia.
+## Fase 2: Construcción
+En esta fase, usamos las medidas de la simulación para construir la antena con alambre de cobre y una placa reflectora.
 
-<img src="imagenes/Captura de pantalla 2025-09-07 150124.png" width="400"> 
+Detalle Importante: La construcción se hizo de forma rústica y no se tuvo cuidado "milimétrico" con las medidas. Esto, como ya se esperaba, significaría que los resultados en el laboratorio no serían totalmente exactos.
 
-## Fase 3: Visualización en el Dominio del Tiempo con Osciloscopio
-Esta fase fue la más desafiante.La frecuencia no es posible de calcular con exactitud con solo el osciloscopio, ya que la señal "senoidal" acumula todas las frecuencias del espectro, lo que la hace fluctuar demasiado. Entre las características de la señal que se ve en el osciloscopio, vemos una señal bastante aleatoria, con mucha distorsión y que no se le pude hacer ningún estudio con solo la ayuda visual, para poder hacer las respectivas medidas se necesita hacer de filtrado para poder elegir frecuencias especificas y poder hacer su respectivo análisis. Se concluyó que el osciloscopio, por sí solo, no es la herramienta ideal para el análisis de una señal sin un filtrado.
+<img src="Imagenes/antena.jpg" width="400"> 
 
-<img src="imagenes/Captura de pantalla 2025-09-07 150136.png" width="400"> 
+## Fase 3: Medición y Validación (La Prueba de Fuego)
+Se probó la antena en el laboratorio con dos equipos:
 
-### Conclusiones
-La combinación de los tres equipos es esencial para un análisis completo de las señales del espectro. El SDR es inigualable para la exploración y el descubrimiento inicial. El analizador de espectro es la herramienta de elección para mediciones precisas en el dominio de la frecuencia. Finalmente, el osciloscopio es fundamental para el análisis en el dominio del tiempo, siempre y cuando la señal de entrada esté adecuadamente preparada. El "pico" en el analizador de espectro representa la concentración de potencia de la señal en una frecuencia específica, lo cual se correlaciona con la forma de onda sinusoidal que se observa en el osciloscopio, representando su comportamiento a lo largo del tiempo. 
+VNA (Vector Network Analyzer): Mide la frecuencia de resonancia.
+
+Analizador de Espectro: Mide la señal recibida y comprueba la directividad.
+
+Resultado 1: Resonancia
+Al medir la frecuencia real, se encontró una gran diferencia con respecto a la simulada. La desviación fue de aproximadamente 150 MHz.
+
+<img src="Imagenes/parametro_S11.jpg" width="400"> 
+
+Resultado 2: Frecuencias operacionales encontradas
+En la frecuencia de resonancia y asumiendo un ancho de banda de 60 MHz pudimos encontrar dos bandas de frecuencias que se usan para telefonia fija según el Cuadro Nacional de Atribución de Bandas.
+
+<img src="Imagenes/atribucion_espectro.png" width="400"> <img src="imagenes/espectro_antena_construida.jpg" width="400">
+
+Resultado 3: Funcionalidad (Directividad)
+- Para esta prueba, el profesor generó una señal de prueba.
+- Conectamos la antena al Analizador de Espectro.
+- Al apuntar la antena directamente a la fuente de la señal, la señal en la pantalla aumentó mucho.
+- Al moverla, la señal bajaba.
+
+Conclusión Funcional: La antena es totalmente funcional y direccional, tal como se había planeado. Logramos visualizar una banda de frecuencia de televisión en el analizador.
+
+También hicimos una comparación con una antena comercial para determinar la ganancia de la antena construida, la antena comercial tenia una ganancia de 6 dBm, y al comparar con la contruida hayamos una diferencia de 2 dBm al medir con la antena costruida, por lo cual concluimos que esta tiene una ganancia de 4 dBm.
+
+<img src="imagenes/espectro_señal_ejemplo_antena_construida.jpg" width="400"> <img src="imagenes/espectro_señal_ejemplo_antena_base.jpg" width="400">
+
+### Análisis y Conclusiones
+¿Por qué falló la frecuencia?
+La principal razón de que la frecuencia real no fuera 915 MHz es la construcción imprecisa. En las antenas, los milímetros son cruciales. Al construirla "rústicamente", las dimensiones no fueron exactas. También influye el conector SMA que se soldó, cuyo efecto no se incluyó en la simulación.
+
+¿Por qué funcionó la directividad?
+La directividad sí se cumplió porque el concepto de diseño con el reflector es correcto. Aunque la antena no resonó exactamente donde queríamos, la forma en que enfoca la energía (la directividad) es inherente a su geometría.
+
+Conclusión Final:
+
+El proyecto fue un éxito en su objetivo principal: se demostró que el diseño de la Antena Biquad con reflector crea un patrón direccional. Sin embargo, se confirma que la precisión en la construcción es el factor más crítico para que la antena funcione exactamente en la frecuencia deseada. El ajuste de dimensiones en el programa de simulación (MATLAB) fue vital para encontrar el punto de partida del diseño.
 
 ---
 
