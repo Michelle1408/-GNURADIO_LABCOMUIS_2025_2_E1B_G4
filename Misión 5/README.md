@@ -36,7 +36,7 @@ El proceso se dividió en tres partes:
 3) Medición: Probar la antena con equipos de laboratorio para ver si funcionaba.
 
 ### Fase 1: Diseño y Simulación
-Para que la antena funcionara a 915 MHz, utilizamos MATLAB para estiamr el tamaño de los cuadrados de alambre y la distancia del reflector.
+Para que la antena funcionara a 915 MHz, utilizamos MATLAB para estimar el tamaño de los cuadrados de alambre y la distancia del reflector.
 
 Ajuste Fino: Usamos el programa MATLAB (Antenna Designer) para simular la antena. Fue como un "prueba y error" digital: primero dejamos que el programa estimara las medidas y luego fuimos modificando el tamaño de los lados y la distancia al reflector hasta que el programa nos dijo que la antena resonaría justo en 915 MHz.
 
