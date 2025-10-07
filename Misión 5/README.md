@@ -75,7 +75,7 @@ Al medir la frecuencia real, se encontró una gran diferencia con respecto a la 
 Resultado 2: Frecuencias operacionales encontradas
 En la frecuencia de resonancia y asumiendo un ancho de banda de 60 MHz pudimos encontrar dos bandas de frecuencias que se usan para telefonia fija según el Cuadro Nacional de Atribución de Bandas.
 
-<img src="Imagenes/atribucion_espectro.png" width="400"> <img src="imagenes/espectro_antena_construida.jpg" width="400">
+<img src="Imagenes/atribucion_espectro.png" width="400"> <img src="Imagenes/espectro_antena_construida.jpg" width="400">
 
 Resultado 3: Funcionalidad (Directividad)
 - Para esta prueba, el profesor generó una señal de prueba.
@@ -87,14 +87,14 @@ Conclusión Funcional: La antena es totalmente funcional y direccional, tal como
 
 También hicimos una comparación con una antena comercial para determinar la ganancia de la antena construida, la antena comercial tenia una ganancia de 6 dBm, y al comparar con la contruida hayamos una diferencia de 2 dBm al medir con la antena costruida, por lo cual concluimos que esta tiene una ganancia de 4 dBm.
 
-<img src="imagenes/espectro_señal_ejemplo_antena_construida.jpg" width="400"> <img src="imagenes/espectro_señal_ejemplo_antena_base.jpg" width="400">
+<img src="Imagenes/espectro_señal_ejemplo_antena_construida.jpg" width="400"> <img src="Imagenes/espectro_señal_ejemplo_antena_base.jpg" width="400">
 
 ### Análisis y Conclusiones
 ¿Por qué falló la frecuencia?
-La principal razón de que la frecuencia real no fuera 915 MHz es la construcción imprecisa. En las antenas, los milímetros son cruciales. Al construirla "rústicamente", las dimensiones no fueron exactas. También influye el conector SMA que se soldó, cuyo efecto no se incluyó en la simulación.
+- La principal razón de que la frecuencia real no fuera 915 MHz es la construcción imprecisa. En las antenas, la precision es crucial. Al construirla "rústicamente", las dimensiones no fueron exactas.
 
 ¿Por qué funcionó la directividad?
-La directividad sí se cumplió porque el concepto de diseño con el reflector es correcto. Aunque la antena no resonó exactamente donde queríamos, la forma en que enfoca la energía (la directividad) es inherente a su geometría.
+- La directividad sí se cumplió porque el concepto de diseño con el reflector es correcto. Aunque la antena no resonó exactamente donde queríamos, la antena es funcional.
 
 Conclusión Final:
 
