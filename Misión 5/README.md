@@ -2,7 +2,7 @@
 ## Universidad Industrial de Santander
 
 ---
-# Misión 1: Reconocimiento de Equipos y Espectro
+# Misión 5: Creando nuestra propia antena
 
 ### Integrantes
 - **MICHELLE GARZÓN CAMPOS** - 2202785
@@ -26,7 +26,7 @@ Uso de IA: Se utilizó ChatGPT para reformular secciones del texto y verificar g
 ### Resumen
 En esta ocasión tratamos de diseñar, construir y probar una antena llamada Biquad con reflector. El objetivo era que funcionara a una frecuencia de 915 MHz y que fuera direccional para captar mejor las señales. Usamos MATLAB para simular las dimensiones ideales, y luego se sontruyó con alabre de cobre y un reflector. Debido a la falta de precisión, la frecuencia de resonancia no fue la misma a la simulada, sin embargo, se demostró que la antena es totalmente funcional.
 
-**Palabras clave:** SDR, Analizador de Espectro, Osciloscopio, Frecuencia, Tiempo. 
+**Palabras clave:** Antena Biquad, Direccionalidad, Reflector, MATLAB.
 
 ### Introducción
 Este informe explica cómo se creó una Antena Biquad con un reflector. El diseño se basa en la idea de que dos cuadrados de alambre (los "quads") captan la señal, y una placa metálica detrás (el reflector) empuja toda esa energía hacia adelante. Esto hace que la antena tenga más potencia en una dirección.
