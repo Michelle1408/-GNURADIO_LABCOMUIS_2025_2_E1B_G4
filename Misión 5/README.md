@@ -60,7 +60,7 @@ Detalle Importante: La construcción se hizo de forma rústica y no se tuvo cuid
 
 <img src="Imagenes/antena.jpg" width="400"> 
 
-## Fase 3: Medición y Validación (La Prueba de Fuego)
+## Fase 3: Medición y Validación
 Se probó la antena en el laboratorio con dos equipos:
 
 VNA (Vector Network Analyzer): Mide la frecuencia de resonancia.
