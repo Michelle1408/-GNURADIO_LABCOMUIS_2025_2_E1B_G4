@@ -27,7 +27,7 @@ Para esta práctica numero 4 se busca realizar una auditoría del espectro FM pa
 ### Introducción
 En la práctica 4 el objetivo principal es auditar el espectro de radiodifusión sonora en Frecuencia Modulada (FM) de Bucaramanga, comparando las señales detectadas en campo con los registros oficiales del MinTIC y la ANE para identificar transmisiones no autorizadas y verificar que las frecuencias registradas operen en los parámetros asignados.para esto primero se hizo un filtrado de los registros oficiales del ANE para centrarnos en los registros en el área metropolitana de bucaramanga, para posterior mente hacer un barrido en frecuencia con ayuda del SDR y el software GNU Radio y verificar la información del paso anterior, y por último se hace una comparación de lo observado en el laboratorio y los registros del ANE.
 
-### Procedimiento
+
 ### Fase1: Inteligencia y Preparación (Investigación Regulatoria)
 
 
