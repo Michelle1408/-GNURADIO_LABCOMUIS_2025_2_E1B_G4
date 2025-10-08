@@ -30,7 +30,7 @@ En la práctica 4 el objetivo principal es auditar el espectro de radiodifusión
 
 ### Fase 1: Inteligencia y Preparación (Investigación Regulatoria)
 En la fase 1 se realizó como primer paso la busqueda de datos oficiales registrados por el MinTIC sobre estaciones de radiodifusión sonora en FM, luego se filtró esta información para obtener las estaciones de radiodifusión en la zona de interes la cual era el área metropolitanda de bucaramanga, se hizo un registro de estas estaciones destacando información característica como Frecuencia Asignada, Distintivo de Llamada, Nombre Comercial de la Emisora y Clase de emisora. Esta información fué registrada en la siguiente tabla:
-<img src="imagenes/Captura de pantalla 2025-10-07 214359.png" width="1000">
+<img src="Captura de pantalla 2025-10-08 102623.png" width="1000">
 esta informacón sera nuestro punto oficial de comparación con el que contrastaremos los resultados obtenidos en el desarrollo de esta práctica.
 
 ### Fase 2: Monitoreo de Campo (Escaneo del Espectro)
