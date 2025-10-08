@@ -1,14 +1,11 @@
-# Práctica 1: TÍTULO PRÁCTICA
+# Práctica 4: VIGILANCIA DEL ESPECTRO LEGAL
 
 ### Integrantes
-- **PRIMER INTEGRANTE** - Código
-- **SEGUNDO INTEGRANTE** - Código
+- **MICHELLE GARZÓN CAMPOS - 2202785**
+- **JOHAN SEBASTIAN FANDIÑO RUIZ - 2204271**
 
 Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones  
 Universidad Industrial de Santander
-
-### Fecha
-31 de diciembre de 2030
 
 ---
 
@@ -23,29 +20,17 @@ Uso de IA: [Indicar si se usó IA y para qué aspectos específicos, por ejemplo
 ## Contenido
 
 ### Resumen
-Descripción en no más de 150 palabras del contenido de la práctica. Debe ser conciso y brindar una idea clara sobre el trabajo realizado y sus conclusiones.
+Para esta práctica numero 4 se busca realizar una auditoría del espectro FM para verificar que todas las transmisiones activas en el área metropolitana de bucaramanga operen con una licencia válida y en sus parámetros autorizados, identificando cualquier posible transmisión "ilegal". Para esto se plantearon 3 fases que pretenden cumplir con el objetivo. 
 
-**Palabras clave:** de 2 a 5 palabras clave. 
+**Palabras clave:** espectro FM, radiodifusión,MinTIC, Coincidencia legal. 
 
 ### Introducción
-Cada práctica contará con preguntas orientadoras para la elaboración de la introducción. Por ejemplo: 
-- ¿Qué tan importante es la teoría de muestreo en el procesamiento de señales?
-- ¿Cuáles son los principales potenciales de GNURADIO en el laboratorio de comunicaciones?
-- ¿Qué pasa cuando se alcanza el límite de Nyquist?
-- ¿Qué tan alta debe ser la relación entre la frecuencia de muestreo y la frecuencia de la señal para visualizar la señal correctamente?
-- ¿Cuándo es importante interpolar una señal?
-- ¿Cuándo es importante diezmar una señal?
-- ¿Qué pasa cuando se asigna una frecuencia de muestreo inadecuada?
+En la práctica 4 el objetivo principal es auditar el espectro de radiodifusión sonora en Frecuencia Modulada (FM) de Bucaramanga, comparando las señales detectadas en campo con los registros oficiales del MinTIC y la ANE para identificar transmisiones no autorizadas y verificar que las frecuencias registradas operen en los parámetros asignados.para esto primero se hizo un filtrado de los registros oficiales del ANE para centrarnos en los registros en el área metropolitana de bucaramanga, para posterior mente hacer un barrido en frecuencia con ayuda del SDR y el software GNU Radio y verificar la información del paso anterior, y por último se hace una comparación de lo observado en el laboratorio y los registros del ANE.
 
 ### Procedimiento
-Debe basarse en las acciones efectivamente realizadas durante el laboratorio, describiendo los procesos realizados y los resultados obtenidos. Para cada práctica se pueden brindar preguntas orientadoras o pasos a seguir para establecer lo que se espera lograr/estudiar/analizar/obtener/comparar. Por ejemplo:
-- Describa los procesos realizados en el laboratorio  y los resultados obtenidos.
-- ¿Cómo se alcanza el límite de Nyquist y que pasa cuando se disminuye de este?
-- ¿Por qué al interpolar una señal en GNURADIO su frecuencia disminuye?
-- ¿Por qué al diezmar una señal en GNURADIO su frecuencia aumenta?
-- ¿Cómo se puede determinar la frecuencia máxima de una señal desde lo experimental?
-- ¿Qué le sucede a una señal de audio cuando no se respeta el teorema de Nyquist?
-- Describa las funciones logradas con el Ecualizador desarrollado con GNURadio.
+### Fase1: Inteligencia y Preparación (Investigación Regulatoria)
+
+
 
 ### Conclusiones
 Se sintetizan los principales aportes y puntos relevantes de la práctica, evitando repetir lo ya consignado en las otras secciones del informe. 
