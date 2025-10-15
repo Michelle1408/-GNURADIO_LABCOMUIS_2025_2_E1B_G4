@@ -46,8 +46,10 @@ Para esta fase se plantea finalizar la práctica con el cumplimiento del objetiv
 Durante la práctica se pudo formar la creación de una tabla maestra que compara los resultados obtenidos en la misión con los datos oficiales y una imagen panorámica en la que se identifican algunas de las emisoras de los documentos oficiales. A continuación la tabla y la imagen panorámica:
 <img src="imagenes/Captura de pantalla 2025-10-08 074705.png" width="1000">
 <img src="imagenes/Imagen de WhatsApp 2025-09-17 a las 16.54.41_b24ddf91.jpg" width="1000">
+
 Se pueden apreciar en esta panorámica 5 picos notables por encima del ruido, estos picos luego de un análisis de frecuencia y comparación de datos, encontramos de donde provenían, el primero pertenece a la W Radio (90.7MHz), el segundo pertenece a la Policía Nacional de Bucaramanga (91.7 MHz), el tercero es la señal emitida por la radio FM Radionica (92.3 MHz), el cuarto pico que se observa es por la radio FM Colombia estéreo cuya frecuencia es 92.9 MHz, y el ultimo pertenece a la Emisora Comunitaria la Brújula- Área de ServicioNo.1 (90.4MHz).
 Con este análisis se encontraron también 2 señales que clasificamos como posibles transmisiones no identificadas, estas fueron la de UIS ESTEREO BUCARAMANGA que se ubicó a los 96.9MHz(imagen1 y 3), y LA EXITOSA que se ubicó a 98.5 MHz, a continuación el espectro de cada una de estas:
+
 <img src="imagenes/Imagen de WhatsApp 2025-09-17 a las 17.31.52_c3644635.jpg" width="450">
 <img src="imagenes/Imagen de WhatsApp 2025-09-17 a las 17.37.01_c4e087ab.jpg" width="450">
 
