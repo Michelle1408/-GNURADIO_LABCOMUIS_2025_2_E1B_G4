@@ -48,12 +48,12 @@ Durante la práctica se pudo formar la creación de una tabla maestra que compar
 <img src="imagenes/Imagen de WhatsApp 2025-09-17 a las 16.54.41_b24ddf91.jpg" width="1000">
 Se pueden apreciar en esta panorámica 5 picos notables por encima del ruido, estos picos luego de un análisis de frecuencia y comparación de datos, encontramos de donde provenían, el primero pertenece a la W Radio (90.7MHz), el segundo pertenece a la Policía Nacional de Bucaramanga (91.7 MHz), el tercero es la señal emitida por la radio FM Radionica (92.3 MHz), el cuarto pico que se observa es por la radio FM Colombia estéreo cuya frecuencia es 92.9 MHz, y el ultimo pertenece a la Emisora Comunitaria la Brújula- Área de ServicioNo.1 (90.4MHz).
 Con este análisis se encontraron también 2 señales que clasificamos como posibles transmisiones no identificadas, estas fueron la de UIS ESTEREO BUCARAMANGA que se ubicó a los 96.9MHz(imagen1 y 3), y LA EXITOSA que se ubicó a 98.5 MHz, a continuación el espectro de cada una de estas:
-<img src="imagenes/Imagen de WhatsApp 2025-09-17 a las 17.31.52_c3644635.jpg" width="500">
-<img src="imagenes/Imagen de WhatsApp 2025-09-17 a las 17.37.01_c4e087ab.jpg" width="500">
+<img src="imagenes/Imagen de WhatsApp 2025-09-17 a las 17.31.52_c3644635.jpg" width="450">
+<img src="imagenes/Imagen de WhatsApp 2025-09-17 a las 17.37.01_c4e087ab.jpg" width="450">
 Una posible razón por la que aparecen emisoras que no están en la lista oficial es que podrían estar transmitiendo sin autorización, es decir, funcionan como emisoras “piratas” que no cuentan con licencia del MinTIC o la ANE, lo cual suele pasar en algunas ciudades del país. Otra explicación es que esas frecuencias sí tienen licencia, pero en municipios cercanos, y la señal alcanza a llegar a Bucaramanga
 gracias a la potencia de transmisión y a las condiciones del terreno. A continuación una imagen del espectro en frecuencia para cada posible transmisión no identificada, tomada desde elanalizador de espectros.
-<img src="imagenes/Imagen de WhatsApp 2025-09-22 a las 22.30.04_6dca3a16.jpg" width="500">
-<img src="imagenes/Imagen de WhatsApp 2025-09-22 a las 22.30.04_e1a6560a.jpg" width="500">
+<img src="imagenes/Imagen de WhatsApp 2025-09-22 a las 22.30.04_6dca3a16.jpg" width="450">
+<img src="imagenes/Imagen de WhatsApp 2025-09-22 a las 22.30.04_e1a6560a.jpg" width="450">
 Durante el barrido del espectro una de las principales dificultades fue identificar con claridad algunas emisoras, ya que varias señales se encontraban muy cercanas en frecuencia y resultaba complicado diferenciarlas. También se presentaron señales débiles que apenas se destacaban sobre el ruido de fondo, lo que hizo más difícil su reconocimiento. Además, el nivel de ruido en ciertos tramos de la banda
 afectó la calidad de la visualización en el espectro, generando dudas sobre si se trataba de emisoras reales o simples interferencias.
 
