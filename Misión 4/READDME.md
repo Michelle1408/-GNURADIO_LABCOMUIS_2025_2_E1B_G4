@@ -42,11 +42,25 @@ En esta tabla se puede observar un registro para la frecuencia en la que deberí
 Para esta fase se plantea finalizar la práctica con el cumplimiento del objetivo de esta misma. Para esto se hace una clasificación de las emisoras encontradas en el barrido. si las características de la señal coinciden con los datos oficiales del MinTIC se asigna como Coincidencia Legal. Por el contrario si las caracteristicas de la señal difieren con los datos oficiales del MinTIC se asigna como Posible Desviación. los resultados de esta clasificación se pueden apreciar en la siguiente tabla:
 <img src="imagenes/Captura de pantalla 2025-10-08 074705.png" width="1000">
 
+### Resultados y hallazgos.
+Durante la práctica se pudo formar la creación de una tabla maestra que compara los resultados obtenidos en la misión con los datos oficiales y una imagen panorámica en la que se identifican algunas de las emisoras de los documentos oficiales. A continuación la tabla y la imagen panorámica:
+<img src="imagenes/Captura de pantalla 2025-10-08 074705.png" width="1000">
+<img src="imagenes/Imagen de WhatsApp 2025-09-17 a las 16.54.41_b24ddf91.jpg" width="1000">
+Se pueden apreciar en esta panorámica 5 picos notables por encima del ruido, estos picos luego de un análisis de frecuencia y comparación de datos, encontramos de donde provenían, el primero pertenece a la W Radio (90.7MHz), el segundo pertenece a la Policía Nacional de Bucaramanga (91.7 MHz), el tercero es la señal emitida por la radio FM Radionica (92.3 MHz), el cuarto pico que se observa es por la radio FM Colombia estéreo cuya frecuencia es 92.9 MHz, y el ultimo pertenece a la Emisora Comunitaria la Brújula- Área de ServicioNo.1 (90.4MHz).
+Con este análisis se encontraron también 2 señales que clasificamos como posibles transmisiones no identificadas, estas fueron la de UIS ESTEREO BUCARAMANGA que se ubicó a los 96.9MHz(imagen1 y 3), y LA EXITOSA que se ubicó a 98.5 MHz, a continuación el espectro de cada una de estas:
+<img src="imagenes/Imagen de WhatsApp 2025-09-17 a las 17.31.52_c3644635.jpg" width="400">
+<img src="imagenes/Imagen de WhatsApp 2025-09-17 a las 17.37.01_c4e087ab.jpg" width="400">
+Una posible razón por la que aparecen emisoras que no están en la lista oficial es que podrían estar transmitiendo sin autorización, es decir, funcionan como emisoras “piratas” que no cuentan con licencia del MinTIC o la ANE, lo cual suele pasar en algunas ciudades del país. Otra explicación es que esas frecuencias sí tienen licencia, pero en municipios cercanos, y la señal alcanza a llegar a Bucaramanga
+gracias a la potencia de transmisión y a las condiciones del terreno. A continuación una imagen del espectro en frecuencia para cada posible transmisión no identificada, tomada desde elanalizador de espectros.
+<img src="imagenes/Imagen de WhatsApp 2025-09-22 a las 22.30.04_6dca3a16.jpg" width="400">
+<img src="imagenes/Imagen de WhatsApp 2025-09-22 a las 22.30.04_e1a6560a.jpg" width="400">
+Durante el barrido del espectro una de las principales dificultades fue identificar con claridad algunas emisoras, ya que varias señales se encontraban muy cercanas en frecuencia y resultaba complicado diferenciarlas. También se presentaron señales débiles que apenas se destacaban sobre el ruido de fondo, lo que hizo más difícil su reconocimiento. Además, el nivel de ruido en ciertos tramos de la banda
+afectó la calidad de la visualización en el espectro, generando dudas sobre si se trataba de emisoras reales o simples interferencias.
+
+
 ### Conclusiones
-Se sintetizan los principales aportes y puntos relevantes de la práctica, evitando repetir lo ya consignado en las otras secciones del informe. 
+En el barrido realizado sobre la banda de FM en Bucaramanga se encontraron coincidencias con la mayoría de emisoras registradas oficialmente, lo cual refleja un uso en general ordenado del espectro. Sin embargo, se detectaron dos señales que no aparecen en la lista oficial: UIS Estéreo (96.9 MHz) y La Exitosa (98.5 MHz). Estas transmisiones representan anomalías que deben revisarse, ya que pueden corresponder a emisoras sin licencia o a coberturas provenientes de municipios cercanos.
+Como inspector de la ANE, recomendaría realizar una verificación en sitio para ambas frecuencias con equipos certificados, con el fin de confirmar si operan dentro de los parámetros legales establecidos en el Plan Técnico Nacional de Radiodifusión Sonora FM. En caso de comprobarse que son emisoras no autorizadas, se deberían iniciar los procesos sancionatorios correspondientes; si se trata de coberturas legítimas, actualizar la información en los registros para reflejar mejor la situación real del espectro en la región.
 
-### Referencias
-Ejemplo de referencia:
 
-- [Proakis, 2014] J. Proakis, M. Salehi. Fundamentals of communication systems. 2 ed. England: Pearson Education Limited, 2014. p. 164-165, 346. Chapter 5 In: [Biblioteca UIS](https://uis.primo.exlibrisgroup.com/permalink/57UIDS_INST/63p0of/cdi_askewsholts_vlebooks_9781292015699)
 
