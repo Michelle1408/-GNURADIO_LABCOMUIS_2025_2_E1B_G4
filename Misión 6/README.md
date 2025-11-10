@@ -2,7 +2,7 @@
 ## Universidad Industrial de Santander
 
 ---
-# Misión 5: Creando nuestra propia antena
+# Misión 6: Nuestra Propia Emisora FM Estéreo
 
 ### Integrantes
 - **MICHELLE GARZÓN CAMPOS** - 2202785
@@ -24,9 +24,9 @@ Uso de IA: Se utilizó ChatGPT para reformular secciones del texto y verificar g
 ## Contenido
 
 ### Resumen
-En esta ocasión tratamos de diseñar, construir y probar una antena llamada Biquad con reflector. El objetivo era que funcionara a una frecuencia de 915 MHz y que fuera direccional para captar mejor las señales. Usamos MATLAB para simular las dimensiones ideales, y luego se sontruyó con alabre de cobre y un reflector. Debido a la falta de precisión, la frecuencia de resonancia no fue la misma a la simulada, sin embargo, se demostró que la antena es totalmente funcional.
+En esta práctica la misión es crear nuestra propia emisora, esto se logrará mediante la creación de un pequeño bloque de programación para ser transmitido en el campus universitario, que pueda ser sintonizado por cualquier receptor de radio FM estándar. Para esto se utilizó la IA y el software Audacity para crear un archivo de audio el cual haría la interpretación del locutor de la emisora, se combina este audio con una canción llamativa y se mazteriza para asegurar que sea un archivo estéreo. El archivo de audio resultante es el que se transmitirá mediante el USRP para poder ser percibido por dispositivos cuya antena capte señales FM.
 
-**Palabras clave:** Antena Biquad, Direccionalidad, Reflector, MATLAB.
+**Palabras clave:** Emisora FM, Aucio estéreo, USRP, MATLAB.
 
 ### Introducción
 Este informe explica cómo se creó una Antena Biquad con un reflector. El diseño se basa en la idea de que dos cuadrados de alambre (los "quads") captan la señal, y una placa metálica detrás (el reflector) empuja toda esa energía hacia adelante. Esto hace que la antena tenga más potencia en una dirección.
