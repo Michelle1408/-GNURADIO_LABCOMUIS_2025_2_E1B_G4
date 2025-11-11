@@ -26,14 +26,13 @@ Uso de IA: Se utilizó ChatGPT para reformular secciones del texto y verificar g
 ### Resumen
 En esta práctica la misión es crear nuestra propia emisora, esto se logrará mediante la creación de un pequeño bloque de programación para ser transmitido en el campus universitario, que pueda ser sintonizado por cualquier receptor de radio FM estándar. Para esto se utilizó la IA y el software Audacity para crear un archivo de audio el cual haría la interpretación del locutor de la emisora, se combina este audio con una canción llamativa y se mazteriza para asegurar que sea un archivo estéreo. El archivo de audio resultante es el que se transmitirá mediante el USRP para poder ser percibido por dispositivos cuya antena capte señales FM.
 
-**Palabras clave:** Emisora FM, Aucio estéreo, USRP, MATLAB.
+**Palabras clave:** Emisora FM, Aucio estéreo, USRP, GNU Radio.
 
 ### Introducción
-Este informe explica cómo se creó una Antena Biquad con un reflector. El diseño se basa en la idea de que dos cuadrados de alambre (los "quads") captan la señal, y una placa metálica detrás (el reflector) empuja toda esa energía hacia adelante. Esto hace que la antena tenga más potencia en una dirección.
-El proceso se dividió en tres partes:
-1) Diseño: Calcular y simular las medidas perfectas en la computadora.
-2) Construcción: Fabricar la antena con las medidas obtenidas.
-3) Medición: Probar la antena con equipos de laboratorio para ver si funcionaba.
+En esta misión el propósito es crear un archivo de audio estéreo el cual deberá ser percibido por dispositivos con antenas capaces de captar señales FM, Esto es lo que llamaremos como "nuestra propia emisora FM". Para la construcción de este archivo de audio y su correcta transmisión se dividió la práctica en las siguientes fases:
+  1. Fase inicial.
+  2. Fase crítica.
+  3. Fase final.
 
 ### Fase 1: Diseño y Simulación
 Para que la antena funcionara a 915 MHz, utilizamos MATLAB para estimar el tamaño de los cuadrados de alambre y la distancia del reflector.
