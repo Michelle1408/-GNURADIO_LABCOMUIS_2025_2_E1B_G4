@@ -44,6 +44,7 @@ Con el audio resultante finalizado se pasó a la fase crítica en la que mediant
 imagen.................
 
 ### Fase 3.
+Una vez ralizados los pasos anteriores pasamos a la fase final de la misión, en esta fase el propósito es llevar a la señal MPX al dominio de radiofrecuencia para su emisión y se comprueba su correcta recepción. Para lograr esto lo primero que se hizo fué añadir el bloque de modulación FM y configurarlo de modo que la señal MPX generada sea la entrada a este bloque y se ajustó la desviación de frecuencia para cumplir con el estándar de radiodifusión de 75KHz, luego se modificaron los parámetros de transmision del bloque USRP como la ganancia y la tasa de muestreo para obtener una señal limpia en el receptor, igualmente de acuerdo con los registros oficiales acerca de radiodifusión de la ANE se decició con el equipo de trabajo establecer la señal MPX en 107MHz como frecuencia central de transmisión
 
 ### Análisis y Conclusiones
 
