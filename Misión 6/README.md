@@ -34,17 +34,19 @@ En esta misión el propósito es crear un archivo de audio estéreo el cual debe
   2) Fase crítica.
   3) Fase final.
 
-### Fase inicial.
+### Fase 1.
 En esta fase se utilizó la IA para para darle cuerpo al mensaje que se creó en conjunto con el grupo de trabajo, utilizando una voz llamativa que le diera un tono de locutora de radio e hiciera sonar interesante e interactivo el mensaje. Luego se uso el software de edición de audio Audacity en donde se masterizó y mezcló el audio creado con la IA en conjunto con una canción llamativa del momento para obtener un archivo de audio estéreo resultante muy llamativo y con un estilo a emisora ordinaria agregandole ese toque de actualidad con la canción elegida. Este archivo de audio resultante debía durar de 60 a 90 segundos y será el que se transmitirá para probar y evaluar la eficiencia de "nuestra propia emisora FM". 
 
 
-### Fase crítica. 
-Con el audio resultante finalizado se pasó a la fase crítica en la que mediante el software GNU Radio se procesó la señal para darle la estructura que deseabamos. Para esto lo primero que se hizo fue cargar el archivo de audio .wav y separar sus componentes estéreo L y R. Con esto se creó la señal de suma L+R para compatibilidad monofónica la cual iba hasta los 15KHz, el tono piloto de 19 kHz que es la referencia de fase para la demodulación estéreo y la señal L-R, esta última se moduló en una subportadora de 38 kHz mediante AM de Doble Banda Lateral con Portadora Suprimida.
+### Fase 2. 
+Con el audio resultante finalizado se pasó a la fase crítica en la que mediante el software GNU Radio se procesó la señal para darle la estructura que deseabamos. Para esto lo primero que se hizo fue cargar el archivo de audio .wav y separar sus componentes estéreo L y R. Con esto se creó la señal de suma L+R para compatibilidad monofónica la cual iba hasta los 15KHz, el tono piloto de 19 kHz que es la referencia de fase para la demodulación estéreo y la señal L-R, esta última se moduló en una subportadora de 38 kHz mediante AM de Doble Banda Lateral con Portadora Suprimida. Finalmente se sumaron las 3 señales mencionadas anteriormente para formar la señal resultante MPX, esta señal MPX es la que será transmitida en el laboratorio y la que será la prueba 01 de "nuestra propia emisora FM". Para asegurar de que la señal MPX tiene la estructura deseada se revisó el espectro en frecuencia de esta señal y para verificar la correcta ubicación y amplitud relativa de cada uno de sus componentes. El espectro en frecuencia obtenido de la señal MPX es el siguiente:
 
-### Fase final
-h
+imagen.................
+
+### Fase 3.
+
 ### Análisis y Conclusiones
-h
+
 ---
 
 Volver al [INICIO](#laboratorio-de-comunicaciones)
