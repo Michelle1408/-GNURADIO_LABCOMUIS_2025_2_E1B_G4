@@ -38,13 +38,13 @@ En esta misión el propósito es crear un archivo de audio estéreo el cual debe
 En esta fase se utilizó la IA para para darle cuerpo al mensaje que se creó en conjunto con el grupo de trabajo, utilizando una voz llamativa que le diera un tono de locutora de radio e hiciera sonar interesante e interactivo el mensaje. Luego se uso el software de edición de audio Audacity en donde se masterizó y mezcló el audio creado con la IA en conjunto con una canción llamativa del momento para obtener un archivo de audio estéreo resultante muy llamativo y con un estilo a emisora ordinaria agregandole ese toque de actualidad con la canción elegida. Este archivo de audio resultante debía durar de 60 a 90 segundos y será el que se transmitirá para probar y evaluar la eficiencia de "nuestra propia emisora FM". 
 
 
-## Fase crítica
- 
+### Fase crítica
+ h
 
-## Fase final
-
+### Fase final
+h
 ### Análisis y Conclusiones
-
+h
 ---
 
 Volver al [INICIO](#laboratorio-de-comunicaciones)
