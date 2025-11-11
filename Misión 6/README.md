@@ -34,22 +34,8 @@ En esta misión el propósito es crear un archivo de audio estéreo el cual debe
   2. Fase crítica.
   3. Fase final.
 
-### Fase 1: Diseño y Simulación
-Para que la antena funcionara a 915 MHz, utilizamos MATLAB para estimar el tamaño de los cuadrados de alambre y la distancia del reflector.
-
-Ajuste Fino: Usamos el programa MATLAB (Antenna Designer) para simular la antena. Fue como un "prueba y error" digital: primero dejamos que el programa estimara las medidas y luego fuimos modificando el tamaño de los lados y la distancia al reflector hasta que el programa nos dijo que la antena resonaría justo en 915 MHz.
-
-Medidas Ideales (Simuladas):
-
-Lado del cuadrado de alambre: 8.55 cm
-
-Distancia al reflector: 4 cm
-
-Frecuencia esperada: 915 MHz
-
-<img src="Imagenes/captura_matlab.png" width="800"> 
-
-El patrón de radiación simulado confirmó que la antena debería ser direccional (tendría un lóbulo grande hacia adelante).
+### Fase inicial.
+En esta fase se utilizó la IA para para darle cuerpo con una voz llamativa al mensaje que se creó en conjunto con el grupo de trabajo, utilizando una voz llamativa que le diera un tono de locutora de radio. Luego se uso el software de edición de audio Audacity en donde se masterizó y mezcló el audio creado con la IA en conjunto con una canción llamativa para obtener un archivo de audio estéreo resultante muy llamativo y con un estilo a emisora ordinaria, este archivo de audio resultante debía durar de 60 a 90 segundos y será el que se transmitirá para probar la eficiencia de nuestra transmisión
 
 
 ## Fase 2: Construcción
