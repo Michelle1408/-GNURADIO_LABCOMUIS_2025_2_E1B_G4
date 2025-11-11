@@ -39,7 +39,7 @@ En esta fase se utilizó la IA para para darle cuerpo al mensaje que se creó en
 
 
 ### Fase crítica
- h
+En la fase crítica 
 
 ### Fase final
 h
