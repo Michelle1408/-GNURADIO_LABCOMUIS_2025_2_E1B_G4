@@ -94,3 +94,8 @@ Estas señales, compuestas por múltiples armónicos según el **Teorema de Four
 ---
 
 ### Conclusiones
+
+La experimentación ha validado los principios de la Modulación de Amplitud en los dominios del tiempo y la frecuencia.
+
+1.  **En el Dominio del Tiempo (Osciloscopio):** Se comprobó la limitación crítica impuesta por el **Índice de Modulación ($m$)**. Es fundamental controlar la **Ganancia TX** para maximizar la potencia transmitida (buscando $m \approx 1$) sin generar distorsión por sobremodulación.
+2.  **En el Dominio de la Frecuencia (Analizador de Espectros):** Se verificó la necesidad de un **Ancho de Banda** $AB = 2f_{m, max}$. El análisis espectral de las formas de onda no sinusoidales y el audio demostró cómo las armónicas y la variabilidad de las señales reales amplían la ocupación del espectro radioeléctrico, impactando directamente el diseño de los sistemas de comunicación.
